@@ -1,0 +1,26 @@
+
+{
+
+	"snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
+    
+"languageserver": {
+        "ccls": {
+            "command": "ccls",
+            "filetypes": ["c", "cpp" ,"c++","cc"],
+            "rootPatterns": ["build/",".ccls",".clang-format"], 
+            "initializationOptions": {
+               "cache": {
+                    "directory": "/tmp/ccls"
+                },
+		"index": {"threads": 2},
+                "highlight": { "lsRanges" : true },
+		"client" : {
+			   "snippetSupport": true
+		},
+		"compilationDatabaseDirectory" :"/build/debug/" 
+
+		
+            }
+}
+}
+}
