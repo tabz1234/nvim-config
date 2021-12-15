@@ -1,7 +1,6 @@
 
 {
 
-	"snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
     
 "languageserver": {
         "ccls": {

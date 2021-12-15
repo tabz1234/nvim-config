@@ -7,20 +7,11 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'rhysd/vim-clang-format'
 
 Plug 'jackguo380/vim-lsp-cxx-highlight'
-Plug 'voldikss/vim-floaterm'
+
 call plug#end()
 
 
-
-
-nnoremap tt :FloatermNew --cwd=<root><cr>
-let g:floaterm_width=1.0
-let g:floaterm_height=0.6
-let g:floaterm_position='bottom'
-let g:floaterm_rootmarkers=['.git','.ccls', 'src','.clang-format']
-let g:floaterm_autoclose=1
-
-
+set mouse=a
 
 set nu
 colorscheme gruvbox-material
