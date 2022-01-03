@@ -16,7 +16,7 @@
 		"client" : {
 			   "snippetSupport": true
 		},
-		"compilationDatabaseDirectory" :"/build/debug/" 
+		"compilationDatabaseDirectory" :"./build/debug/" 
 
 		
             }
