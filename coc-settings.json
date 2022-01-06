@@ -1,4 +1,3 @@
-
 {
 
     
@@ -20,6 +19,24 @@
 
 		
             }
-}
+},
+ "haskell": {
+      "command": "haskell-language-server",
+      "args": [
+        "--lsp"
+      ],
+      "rootPatterns": [
+        ".stack.yaml",
+	".git/",
+	"src",
+	"build/",
+	"Main.hs"
+      ],
+      "filetypes": [
+        "hs",
+        "lhs",
+        "haskell"
+      ]
+    }
 }
 }
