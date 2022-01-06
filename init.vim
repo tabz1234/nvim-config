@@ -11,6 +11,7 @@ Plug 'jackguo380/vim-lsp-cxx-highlight'
 call plug#end()
 
 
+set noswapfile
 set mouse=a
 
 set nu
