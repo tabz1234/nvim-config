@@ -5,7 +5,7 @@
         "ccls": {
             "command": "ccls",
             "filetypes": ["c", "cpp" ,"c++","cc"],
-            "rootPatterns": ["build/",".ccls",".clang-format"], 
+            "rootPatterns": ["build/",".ccls",".clang-format",".git"], 
             "initializationOptions": {
                "cache": {
                     "directory": "/tmp/ccls"
@@ -15,7 +15,7 @@
 		"client" : {
 			   "snippetSupport": true
 		},
-		"compilationDatabaseDirectory" :"./build/debug/" 
+		"compilationDatabaseDirectory" :"./build/debug_0" 
 
 		
             }
